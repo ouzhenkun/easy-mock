@@ -64,7 +64,7 @@ visualization view.
 ### Installation
 
 ```shell
-$ git clone https://github.com/easy-mock/easy-mock.git
+$ git clone git@github.com:ouzhenkun/easy-mock.git
 $ cd easy-mock && npm install
 ```
 
