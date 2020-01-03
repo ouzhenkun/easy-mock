@@ -259,15 +259,7 @@ export default {
           this.$router.push('/')
         }
       }).catch((res) => {
-        if (res.data.message === '用户不存在') {
-          this.$Modal.confirm({
-            title: this.$t('confirm.title'),
-            content: this.$t('p.login.confirm.register.content'),
-            onOk: () => {
-              this.register()
-            }
-          })
-        }
+        console.error(res)
       })
     },
     register () {
